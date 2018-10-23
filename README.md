@@ -46,7 +46,11 @@ Luego agregaremos la ruta del binario al archivo package.json, esto lo colocará
   "dependencies": {}
 }
 ```
-
+Debido a que el paquete se encuentra en nuestra máquina debemos de enlazarlo. Para ello podemos usar el comando siguiente:
+```
+$ npm link
+```
+Si el paquete ya fue publicado con anterioridad puede usarse
 ```
 $ npm install -g outside-cli
 ```
